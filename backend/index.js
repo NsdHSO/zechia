@@ -12,7 +12,7 @@ app.use(compression())
 app.disable("x-powerd-by")
 app.use(cors());
 
-app.use('/', express.static(path.join(__dirname,'..' ,'dist/apps/driver')));
+app.use('/s', express.static(path.join(__dirname,'..' ,'dist/apps/driver')));
 
 
 
