@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'fleet-driver-driver',
+  selector: 'fleet-driver',
   templateUrl: './driver.component.html',
   styleUrls: ['./driver.component.scss'],
 })

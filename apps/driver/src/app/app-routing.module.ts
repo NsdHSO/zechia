@@ -1,11 +1,16 @@
 import { Routes, RouterModule } from '@angular/router';
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule }             from '@angular/core';
+import { CommonModule }         from '@angular/common';
+
 
 const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./driver/driver.module').then(m => m.DriverModule)
+  },
+  {
+    path: 'truck',
+    loadChildren: () => import('./truck/truck.module').then(m => m.TruckModule)
   }
 ]
 

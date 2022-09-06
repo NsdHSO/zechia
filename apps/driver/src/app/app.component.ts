@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'fleet-driver-root',
+  selector: 'fleet-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
