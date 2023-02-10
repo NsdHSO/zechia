@@ -18,7 +18,7 @@
         "assets": [
           "apps/driver/src/favicon.ico",
           "apps/driver/src/assets",
-          "apps/auth/src/netlify.toml"
+          "apps/driver/src/netlify.toml"
         ],
         "styles": [
           "node_modules/reset-css/reset.css",
