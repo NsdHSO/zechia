@@ -5,7 +5,7 @@ import { CommonModule }         from '@angular/common';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'driver',
     loadChildren: () => import('./driver/driver.module').then(m => m.DriverModule)
   },
   {
