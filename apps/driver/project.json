@@ -17,7 +17,8 @@
         "inlineStyleLanguage": "scss",
         "assets": [
           "apps/driver/src/favicon.ico",
-          "apps/driver/src/assets"
+          "apps/driver/src/assets",
+          "apps/auth/src/netlify.toml"
         ],
         "styles": [
           "node_modules/reset-css/reset.css",
