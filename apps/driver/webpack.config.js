@@ -6,7 +6,7 @@ module.exports = withModuleFederationPlugin({
   filename: "remoteEntry.js",
 
   exposes: {
-    './Module': './apps/driver/src/app/driver/driver.module.ts',
+    './Module': './apps/driver/src/app/app.module.ts',
     './Truck': './apps/driver/src/app/truck/truck.module.ts',
   },
 
