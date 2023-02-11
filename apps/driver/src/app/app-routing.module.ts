@@ -8,10 +8,11 @@ const routes: Routes = [
     path: 'driver',
     loadChildren: () => import('./driver/driver.module').then(m => m.DriverModule)
   },
+
   {
-    path: 'truck',
-    loadChildren: () => import('./truck/truck.module').then(m => m.TruckModule)
-  }
+    path:'truck',
+    loadChildren: () => import('frame/Module').then(m=>m.RemoteEntryModule)
+  },
 ]
 
 @NgModule({
