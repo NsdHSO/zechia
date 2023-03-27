@@ -9,7 +9,7 @@ module.exports = withModuleFederationPlugin({
     './Module': './apps/driver/src/app/app.module.ts',
   },
   remotes:{
-    'frame':"https://joyful-meringue-8a62d9.netlify.app/remoteEntry.mjs"
+    'frame':"https://crispy-octo.netlify.app/remoteEntry.mjs"
   },
   shared: {
     ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
