@@ -1,16 +1,15 @@
 import {
-  HTTP_INTERCEPTORS,
   HttpClient,
   HttpEvent,
   HttpHandler,
   HttpInterceptor,
   HttpRequest,
-  HttpResponse
+  HttpResponse, HTTP_INTERCEPTORS
 } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import { delay } from "rxjs/operators";
 import { Observable, of } from "rxjs";
-import { drivers } from "../../assets/drivers";
+import { delay } from "rxjs/operators";
+import { drivers } from "../assets/drivers";
 
 @Injectable()
 export class FakeBackendHttpInterceptor implements HttpInterceptor {
